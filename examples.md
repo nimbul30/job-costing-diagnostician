@@ -2,9 +2,9 @@
 
 Worked diagnoses. These show the *reasoning pattern* — not a template to copy.
 
-Examples 1 and 2 are real job folders that ship alongside this tool, worked from the photos as given. Example 3 is a constructed case. In each one the numbers reconcile: the bleed equals the sum of the variances (see the total-cost row). Notice each diagnosis names ONE cause, shows the number trail, rules out the runners-up, and stops.
+Both are real job folders that ship alongside this tool, worked from the photos exactly as given. In each one the numbers reconcile: the bleed equals the sum of the variances (see the total-cost row). Notice each diagnosis names ONE cause, shows the number trail, rules out the runners-up, and stops.
 
-Note what Examples 1 and 2 have in common: **the numbers located the bleed, but a text message and a date stamp identified the cause.** That is the move to imitate.
+Note what they have in common: **the numbers located the bleed, but a text message and a date stamp identified the cause.** That is the move to imitate.
 
 ---
 
@@ -66,40 +66,4 @@ The trail here is a date trail, not a dollar trail. The equipment line is the *e
 
 ---
 
-## Example 3 — Shingle tear-off, residential (constructed)
-
-Included as a deliberate contrast with Example 1: same trade, same headline ("labor blew out"), different cause. What separates them is *which second bucket moved.*
-
-**What was fed in:** Estimate and final numbers for a shingle re-roof. Bid $18,500, collected $18,500 (revenue unchanged).
-
-| Bucket | Estimated | Actual | Variance | Share of bleed |
-|---|---|---|---|---|
-| Materials | $6,200 | $6,750 | +$550 | 16% |
-| **Labor** — 64 → 108 hrs @ $48 | $3,072 | $5,184 | **+$2,112** | **62%** |
-| Disposal | $450 | $1,200 | +$750 | 22% |
-| Fixed (permit, overhead) | $2,700 | $2,700 | — | 0% |
-| **Total cost** | **$12,422** | **$15,834** | **+$3,412** | |
-| **Margin** (bid − cost) | **$6,078** | **$2,666** | **bleed $3,412** | |
-
-**Diagnosis:**
-
-The primary cause is a **scope assumption error in the estimate: the bid was priced for a single-layer tear-off, but the roof had three layers of old shingles.**
-
-Here's the trail. The $3,412 bleed is dominated by labor: 44 extra hours (64 → 108) at $48 burdened = $2,112, which is 62% of the whole bleed on its own. Disposal running $750 over (22%) is the tell that confirms it — three layers is roughly triple the tear-off weight, which explains *both* the extra dump loads *and* the extra labor at once. Materials being $550 over (16%) is real but minor, and the burdened rate was estimated correctly (no rate variance), so this was not a pricing or wage problem.
-
-**What I ruled out.** I considered whether this was simply a slow crew. Rejected: if the crew were slow, disposal wouldn't have tripled. The disposal overrun is physical evidence of material the estimate never accounted for. The hours didn't balloon because the crew dawdled; they ballooned because there was 3x the material to remove.
-
-**Note the contrast with Example 1.** Both jobs are roofs. Both have labor blowing out with revenue flat. Both have a second bucket moving with it. They are opposite diagnoses, and the thing that separates them is *how evenly* the two buckets moved:
-
-| | Example 1 (Hendricks) | Example 3 (this one) |
-|---|---|---|
-| Labor over its own estimate | 39% | 69% |
-| Second bucket over its own estimate | materials, 33% | disposal, 167% |
-| Spread | **6 points — proportional** | **98 points — lopsided** |
-| Meaning | the job **grew** → billing failure | the bid was **wrong** → estimating failure |
-
-Even growth means work was *added* and never invoiced. Lopsided growth means nothing was added — one assumption in the bid was simply false, and the bucket that tracks that assumption blew out hardest while the others followed at a distance. Same trade, same headline, and the diagnosis turns entirely on a number neither contractor would have thought to compute.
-
-Labor overruns are almost never the diagnosis. They are the thing the diagnosis explains.
-
-**Cause vs. symptom.** It looks like the crew ran 44 hours over. The cause is upstream, at the bid — nobody verified layer count before pricing.
+**One pattern worth carrying into every job:** in both diagnoses above, the loudest number was not the cause. Hendricks looked like a 22-hour labor overrun and turned out to be a billing failure. Whitfield looked like equipment inflation and turned out to be a bid with no shelf life. Overruns are almost never the diagnosis — they are the thing the diagnosis explains.

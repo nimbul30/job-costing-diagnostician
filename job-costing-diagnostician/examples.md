@@ -1,10 +1,10 @@
 # Examples
 
-Worked diagnoses. These show the *reasoning pattern* — not a template to copy.
+Two real job folders, worked end to end — not a template to copy, but the standard of proof.
 
-Both are real job folders that ship alongside this tool, worked from the photos exactly as given. In each one the numbers reconcile: the bleed equals the sum of the variances (see the total-cost row). Notice each diagnosis names ONE cause, shows the number trail, rules out the runners-up, and stops.
+Each runs the full method: **§1 diagnose** (one root cause, proven) → **§2 audit** (the full ranked ledger) → **§3 advise** (the fix, and whether the money's recoverable) → **§4 correct** (what the paperwork should have said). Watch how §1 stays clean — no advice, no rewrite leaks into it — and how everything below refers back to the one cause it names. In both, the numbers reconcile: the bleed equals the sum of the variances.
 
-Note what they have in common: **the numbers located the bleed, but a text message and a date stamp identified the cause.** That is the move to imitate.
+The move to imitate in §1: **the numbers located the bleed, but a text message and a date stamp identified the cause.** The move to imitate across §2–§4: **each later section stays in its lane** — the audit ranks instead of dumping, the advice targets the one cause, the edit reconstructs from the folder and invents nothing.
 
 ---
 
@@ -36,6 +36,46 @@ So the cost was never in doubt. It is itemized on two receipts totalling **$1,13
 
 **Cause vs. symptom.** It looks like the crew ran 22 hours over. The hours are a symptom. The cause is that no step existed to turn an approval into a billable line — the work was agreed to in writing and costed on a receipt the same week, and still nothing carried it onto the invoice. This is not a contractor who lost track of what the extras cost. It is a business with no path from "yes, do it" to "here is what it comes to."
 
+*(That was §1. Notice it named the cause and stopped — no fix, no corrected number. Those come below, in order.)*
+
+### §2 · The full ledger
+
+The diagnosis ranked to find the winner. The audit keeps the whole field — every leak, tagged, still reconciling to $2,914.16:
+
+| Line | Variance | Share | Tag |
+|---|---|---|---|
+| **Change-order work** — plywood $659.76 + skylight/flashing $478 + ~16 hrs labor ($736) + extra dump load ($130) | **+$2,003.76** | **69%** | **[ROOT]** |
+| Shingle over-order — 26 sq against a 24-sq roof, no waste allowance in the bid | +$566.40 | 19% | [SECONDARY] |
+| Remaining labor — ~6 hrs, shingle handling and the Tuesday rain delay | +$276.00 | 9% | [NOISE] |
+| Fuel | +$68.00 | 2% | [NOISE] |
+| **Total** | **+$2,914.16** | 100% | reconciles ✓ |
+
+The tag that earns its keep is **[SECONDARY]**. The shingle over-order is a real, separate problem — a bid that carried raw takeoff with no waste allowance — and it is *not* the change-order story. The diagnosis was right to rule it out as the cause; the audit is right to keep it as a finding. Two different failure modes, honestly separated.
+
+### §3 · What to do
+
+**The fix (root cause).** A change-order gate: no out-of-scope work starts until a one-line written change order with a price is approved, and every approved CO is wired to the final invoice. The channel can stay a text message — that part worked fine. What was missing was a *price* attached to the "yes" and a *line* on the invoice. Fix those two and the leak closes.
+
+**Can the money be recovered?** A judgment call, not a yes. The job is closed, paid in full, and the folder ends on *"You're the best!!"* with a referral already banked. A friendly "we forgot to add the approved extras" invoice might well land — a homeowner who said *"do whatever it needs, I trust you guys"* is often expecting to pay — but weigh the ~$3,300 against a referral pipeline that's plausibly worth more. That's the operator's call to make; the honest analyst names the tradeoff rather than pretending the money is simply sitting there.
+
+**Secondary finding.** One line: carry a 10–15% shingle waste allowance in the bid — a 24-square roof should be ordered as ~27 squares, priced in, not discovered.
+
+### §4 · The corrected numbers
+
+The change order that should have existed, priced from the folder at the job's own markup:
+
+| Change-order line | From | Amount |
+|---|---|---|
+| Materials | Home Depot + ABC receipts | $1,137.76 |
+| Labor — ~16 hrs @ $46 loaded *(assumption, see below)* | day log | $736.00 |
+| Extra dump load | scale ticket | $130.00 |
+| **CO cost** | | **$2,003.76** |
+| Marked up at the job's own ratio (14,500 ÷ 8,756 = **1.66×**) | | **~$3,318** |
+
+**The invoice read $14,500. It should have read ~$17,800.** That ~$3,300 gap is the whole of §1 turned into a number — of it, ~$2,004 was cost the job simply ate, and ~$1,300 was margin it gave away. Billed correctly, the job clears roughly its target margin instead of missing it by $2,914.
+
+*Assumption flagged:* the 22 extra hours are split 16 to the additions / 6 to shingle-handling-and-rain. Decking replacement and a skylight cut-in are both labor-heavy, so the bulk falls on the change orders — but this split is an estimate, not a documented allocation, and the ~$3,300 moves by about $45 for every hour reassigned.
+
 ---
 
 ## Example 2 — AC changeout, residential (Whitfield, 27 Larkspur Ct)
@@ -66,6 +106,31 @@ The trail here is a date trail, not a dollar trail. The equipment line is the *e
 
 **Cause vs. symptom.** It looks like equipment "just got more expensive." That's a symptom, and it's the reason this one hides — the bid was *correct when written.* The cause is that the bid had no shelf life: a quote was given to a customer as firm while the supplier's price behind it was still free to move.
 
+### §2 · The full ledger
+
+Sometimes the audit is short, and a short audit is a valid one — it says *we checked everything and only one thing moved:*
+
+| Line | Variance | Share | Tag |
+|---|---|---|---|
+| **Equipment** — same XC-36, ordered 99 days after the quote it was priced from | **+$1,008** | **100%** | **[ROOT]** |
+| Materials, labor (21 hrs), permit, fuel | on estimate | 0% | [NOISE] |
+
+No [SECONDARY] finding to record — the crew note and voicemail both confirm a clean install. When a job is genuinely clean except for one line, say so; don't manufacture secondary findings to fill the table.
+
+### §3 · What to do
+
+**The fix (root cause).** Put a shelf life on every quote — *"valid 30 days"* on the customer-facing price — and tie that price to a supplier quote of the same age. If the job books later than the window (this one booked at 99 days), re-price before ordering. The customer's firm number and the supplier's number must expire together.
+
+**Can the money be recovered?** **No.** The firm price was honored — that's precisely why it hurt — and the bid carried no escalation clause, so there is nothing to bill back. This is the honest and common verdict: the money is gone, and the lesson is the entire deliverable. Saying otherwise would be false comfort.
+
+### §4 · The corrected numbers
+
+The March 3 quote should have read *"valid 30 days."* Re-quoted when the equipment was actually ordered in June — condenser and coil at the current $6,608 instead of the stale $5,600 — the bid needed to read **~$12,208** to hold its $2,800 target margin. It read $11,200. That **$1,008** difference is the expired quote, exactly and entirely: the number is the bleed, traced back to the one decision that produced it. Nothing here is reconstructed guesswork — the $6,608 is on the June distributor invoice in the folder.
+
 ---
 
-**One pattern worth carrying into every job:** in both diagnoses above, the loudest number was not the cause. Hendricks looked like a 22-hour labor overrun and turned out to be a billing failure. Whitfield looked like equipment inflation and turned out to be a bid with no shelf life. Overruns are almost never the diagnosis — they are the thing the diagnosis explains.
+**Two patterns worth carrying into every job.**
+
+*In the diagnosis:* the loudest number was not the cause. Hendricks looked like a 22-hour labor overrun and turned out to be a billing failure. Whitfield looked like equipment inflation and turned out to be a bid with no shelf life. Overruns are almost never the diagnosis — they are the thing the diagnosis explains.
+
+*In the advice:* the two jobs end differently on purpose. Hendricks' money is *maybe* recoverable — a warm customer, an approved extra — so the advice names a tradeoff and hands the operator the call. Whitfield's money is *gone* — a firm price honored, no clause — so the advice says so plainly and lets the forward fix be the whole deliverable. Don't default to an upbeat "you can still get this back." Give the recovery verdict the facts support, and when the answer is no, the lesson is enough.

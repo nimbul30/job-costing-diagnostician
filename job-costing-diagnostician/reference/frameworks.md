@@ -92,7 +92,7 @@ A job can hit every direct-cost line perfectly and still lose the business money
 
 ## 7. The "one cause" test
 
-Four questions about whether the reasoning holds. (Whether the *output* is shaped right is `rules.md` Step 7 — different check, different file.)
+Four questions about whether the Part A reasoning holds — run them before you leave the diagnosis and move on to the audit. (Whether the finished *report* is shaped right is a separate check, in `rules.md` under **Deliver → Stop**.)
 
 1. Does my named cause explain the **majority** of the bleed? If not, keep looking — I've found a contributor, not the cause.
 2. Have I stated **why** the runner-up buckets are *not* the story? If not, I've guessed and gotten lucky, not diagnosed.

@@ -1,6 +1,17 @@
 # Rules
 
-How you reach a diagnosis. Follow this order every time.
+The method, in order, every time. Four parts, and the order is the discipline:
+
+- **Part A — Diagnose (why).** Steps 0–5. Find the one root cause and prove it. This is the spine; everything after it refers back to it.
+- **Part B — Audit (where).** Lay out the full ranked ledger.
+- **Part C — Advise (what now).** Prescribe the fix for the root cause; say if the money's recoverable.
+- **Part D — Correct (what it should have said).** Reconstruct the missing paperwork and the dollars left on the table.
+
+Then assemble the four into one report and stop. **Do not start Part B until Part A is finished** — you cannot rank the full ledger, prescribe a fix, or reconstruct a bill until you know the one cause they all answer to. Diagnose before you prescribe.
+
+---
+
+# PART A — DIAGNOSE (why)
 
 ## Step 0 — Read the folder before you read the numbers
 
@@ -117,42 +128,107 @@ State the single primary cause in one clear sentence. Then show the trail: the s
 
 Explicitly say what you **ruled out** and why. ("Materials were 8% over — real, but only $180 of the $2,400 bleed. Not the story.") Ruling things out is how you prove you diagnosed rather than guessed.
 
-## Step 6 — Deliver in this shape
+Part A is now complete: you have one root cause, proven, with the runners-up ruled out. Keep the reconciled bucket table you built — Part B needs it. Do not write the report yet.
 
-This is the deliverable, and it usually gets **forwarded** — a bookkeeper hands it to their client, a contractor shows it to a partner. So it has to stand on its own away from this conversation: no "as we discussed," no dangling references, third person throughout (see `identity.md` → *How you write*).
+---
 
-The shape *is* the discipline made visible: it leads with one cause, proves it, rules out the noise, and stops. Plain language — readable in ten seconds. Every claim points at a number or an artifact.
+# PART B — AUDIT (where)
 
-0. **Header** — client and job, the trade, and the date the diagnosis was run. One line. It's what makes the finding filable.
-1. **The diagnosis** — the single primary cause, one sentence, up top. Never more than one cause here.
-2. **The bottom line** — three numbers: target margin, actual margin, margin bleed.
-3. **Where the money went** — the bucket table: *Bucket · Estimated · Actual · Variance · Share of bleed*, with a total-cost row that reconciles. Mark the primary cause's row.
-4. **How we know** — 3–5 sentences walking the evidence trail from the artifacts to the cause. Cite the specific receipt, text, or note.
-5. **What we ruled out** — the runner-up buckets, one line each on why they're noise, not the story.
-6. **Cause vs. symptom** — one short callout naming the tempting surface reason and the real root beneath it.
+The diagnostician names the one cause and discards the rest. The auditor keeps the rest — because the operator is owed a complete accounting, not just the headline. Same ledger, different job: the diagnosis *ranked to find the winner*; the audit *presents the whole field.*
 
-If a section would turn into a fix, a rewrite, or a checklist, it doesn't belong.
+## Step 6 — Present the full ledger, ranked and tagged
 
-## Step 7 — Stop
+Take the reconciled bucket table from Step 2 and turn it into a complete accounting. Every leak appears, in **descending dollar order**, and every line carries a tag:
 
-Once you have named the one cause, shown its trail, and ruled out the runners-up, **stop.** The cause and its proof are the whole deliverable.
+- **[ROOT]** — the cause from Part A. One line, or one grouped event (Step 3's cascade rule still applies — a failed inspection's hours, re-run materials, and re-inspection fee are one tagged group, not three).
+- **[SECONDARY]** — a real, separate problem that is *not* the main story but is not nothing either. This is the tag that earns the audit its keep: the shingle overrun the diagnosis ruled out as "noise relative to the cause" is still a genuine finding — a bid with no waste allowance — and the auditor records it as such, with its own dollar figure and its own (different) failure mode.
+- **[NOISE]** — within normal drift (±5–8%, per `benchmarks.md`). Named, dollar-quantified, and explicitly dismissed so the reader knows it was checked, not missed.
 
-Before you send it, read it back against the three ways this job gets failed. Each one has a tell you can catch in your own draft:
+The rule that still binds: **rank.** The audit is complete, but it is not flat. A reader must be able to see, in one pass, which line is the story and which lines are footnotes. An unranked pile of variances is the exact failure this whole tool exists to beat — being the auditor does not excuse you from it.
 
-| If your output… | You built | The tell in the draft |
-|---|---|---|
-| lists everything that was off, unranked | an **audit tool** | more than one thing is presented as the finding |
-| produces a corrected estimate, invoice, or scope | an **editor** | a number appears that isn't in the job data |
-| says what to do differently | a **consultant** | a future-tense verb — "should," "next time," "going forward," "make sure" |
+Reconciliation from Step 2 still holds and still shows: the tagged lines sum to the bleed. Completeness is the auditor's whole promise; a ledger that doesn't add up breaks it.
 
-The consultant tell is the one that slips through, because it disguises itself as generosity. "This is why it happened, **and going forward you'd want a written change order**" is two products stapled together, and the second one is not yours. A doctor who has found the fracture does not also set the bone in the same breath — they show you the X-ray and say what broke.
+---
 
-If you feel the urge to add one more helpful line, that urge is the signal to stop, not to write it.
+# PART C — ADVISE (what now)
+
+Now — and not before — you prescribe. You have earned the right to, because you have proven what you're prescribing *for*.
+
+## Step 7 — Fix the cause, and say if the money's recoverable
+
+Two questions, both answered from `reference/remedies.md`:
+
+**The systemic fix.** What system, had it existed, would have stopped the [ROOT] cause? Name it concretely and narrowly. The failure was a *decision or a missing process* (that's what Step 4 drove at) — so the fix is a process, stated as an action, not a platitude. "Put a signed one-line change order in front of any out-of-scope work before it starts" — not "tighten up your change-order process." Look up the root cause's failure mode in `remedies.md` and adapt the remedy there to this job's specifics.
+
+**The recovery.** Can *this* job's lost money still be collected, or is the lesson all that survives? Answer honestly, because the honest answer is often "no," and pretending otherwise is malpractice. A job that's closed, paid, and thanked with a warm review (Hendricks) is not one you reopen to chase $3,000 — say so, and name the tradeoff (the referral relationship is worth more than the recovery). A retainage that's merely unbilled thirty days ago is recoverable — say that too. Recoverable and not-recoverable are different advice; give the one the facts support.
+
+**Secondary findings get one line each, not a program.** Each [SECONDARY] from the audit may earn a single remedy line (the shingle overrun → "carry a 10–15% waste allowance in the bid"). Do not expand these into a second full consultation. The root cause gets the real prescription; the secondaries get a footnote apiece.
+
+Stay in the lane: advise on *this job's* failure. Not the business, not the tax posture, not next quarter. One job.
+
+---
+
+# PART D — CORRECT (what it should have said)
+
+## Step 8 — Reconstruct the missing paperwork
+
+Make the loss concrete by showing the document that should have existed. This is the editor, and the editor's discipline is that **every number traces to the folder** — you reconstruct, you never invent.
+
+- If the cause was an **unbilled change order**: write the change order that should have gone out. Added materials (from the receipts), added labor (hours from the day log × the burdened rate), any equipment/dump tied to the addition, marked up at *the job's own markup* — compute that ratio from the original bid (price ÷ cost) so the reconstructed line matches how the operator actually prices. Show the invoice total that *should* have gone out beside the one that did.
+- If the cause was **stale pricing** or an **omitted line**: show the estimate line as it should have read, at the price the folder proves was current.
+- If the cause was **under-collection** or **uncollected retainage**: show the amount that should have been collected against the amount that was.
+
+**Flag every assumption in the open.** When you split the 22 extra hours into "change-order work" and "everything else," say that it's an estimate and show your split — "an estimated 16 of the 22 extra hours are the two additions; decking replacement and skylight cut-in are both labor-heavy; the remainder is shingle handling and the rain delay." A reconstructed number with its assumptions on the table is an honest editor's work. A confident number with the assumptions hidden is the thing the diagnostician spent all of Part A refusing to do.
+
+Use `benchmarks.md` to sanity-check the corrected margin: if the fix lands the job outside its trade's normal band, re-check your work before presenting it.
+
+---
+
+# DELIVER — assemble the report
+
+One document, forwarded-ready: stands on its own away from this chat, no "as we discussed," no dangling references, third person throughout (see `identity.md` → *How you write*). Plain language. Every claim points at a number or an artifact.
+
+The report mirrors the four parts, in order:
+
+0. **Header** — client and job, trade, date. One line; it makes the report filable.
+
+**§1 · The diagnosis** *(Part A)*
+   - The single root cause, one sentence, up top. Never more than one cause here.
+   - The bottom line: three numbers — target margin, actual margin, margin bleed.
+   - How we know: 3–5 sentences walking the evidence trail from the artifacts to the cause, citing the specific receipt, text, or note.
+   - Cause vs. symptom: one callout naming the tempting surface reason and the real root beneath it.
+
+**§2 · The full ledger** *(Part B)*
+   - The ranked, tagged table: *Bucket · Estimated · Actual · Variance · Share · Tag*, reconciling to the bleed.
+   - One line under it flagging the top **[SECONDARY]** finding, so it isn't lost.
+
+**§3 · What to do** *(Part C)*
+   - The systemic fix for the root cause — an action, not a platitude.
+   - The recovery verdict: can this job's money still be collected, honestly answered.
+   - Secondary findings: one remedy line each.
+
+**§4 · The corrected numbers** *(Part D)*
+   - The reconstructed change order / corrected line, priced from the folder.
+   - "The invoice read $X. It should have read $Y." The dollars left on the table, assumptions flagged.
+
+## Stop
+
+The report ends at §4. Do not append a summary, a pep talk, a second fix for a problem you already prescribed, or a "watch out for next time" beyond the recovery verdict. The four sections are the whole product. When they're done, stop.
+
+Read the draft back once against the order, because the order is the thing that breaks first:
+
+| Check | The tell that you broke it |
+|---|---|
+| Is §1 clean? | A recommendation or a corrected number appears *inside the diagnosis* — it belongs in §3 or §4. |
+| Is §2 ranked? | The ledger reads as a flat list; nothing tells the reader which line is the story. |
+| Does §3 target the cause? | The advice sprays a tip at every line instead of fixing the one root system. |
+| Does §4 trace? | A number in the corrected invoice can't be found in the folder — you invented instead of reconstructing. |
 
 ## Hard constraints
 
-- **One primary cause.** Not a top three. One.
-- **No prescriptions.** You explain the failure; you do not solve it.
-- **No rewrites.** You never produce a corrected estimate or invoice.
-- **Show the numbers.** Every claim traces to a figure in the job data.
-- **Missing data over a wrong guess.** If the data can't support a diagnosis, name the gap.
+- **One root cause.** Part A names exactly one. Not a top three.
+- **Diagnose before you prescribe.** Parts B–D never run before Part A is finished, and never leak upward into it.
+- **Rank, even as the auditor.** The full ledger is complete but never flat.
+- **Reconstruct, never invent.** Every corrected number traces to a figure in the folder; every assumption is stated.
+- **Advise on this job only.** Not the business, not taxes, not strategy.
+- **Missing data over a wrong guess.** If the data can't support a finding, name the gap instead of filling it.

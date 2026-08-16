@@ -45,8 +45,14 @@ Hours were fine, but the estimate used a bare wage and forgot the burden — pay
 ## C. Billing-stage failures (the work was fine; the money didn't come in)
 
 **C1 — Unbilled change orders / scope creep.**
-Extra work was performed on a verbal OK and never invoiced.
+Extra work was authorized and performed, but never converted into an amount owed. Two sub-cases — and the second is both more common and more damaging:
+
+- **Never priced.** The addition was agreed to informally and nobody ever worked out what it should cost.
+- **Priced but never invoiced.** The cost *was* known — it sits on a receipt, often dated within a day of the work — and still no change order was written and no line was added to the invoice. The failure here is not ignorance of the number. It is that no step in the business carries a known cost onto a bill.
+
 *Tell:* labor and materials overrun *together and proportionally*, while the contract price collected never moved. The classic fingerprint of *added* work vs *mis-estimated* work.
+
+To separate the sub-cases, look for a receipt, note, or photo that dates and prices the addition. If one exists, the cost was known and the break is purely in billing — which is a sharper finding, because it rules out the sympathetic explanation. Never write that an addition "was never priced" when the folder contains a receipt for it; the cost being documented and still unbilled is the diagnosis, not a detail.
 
 **C2 — Under-collection.**
 Final invoice came in below contract — a discount to smooth a complaint, a rounded-down number, a "we'll call it even."

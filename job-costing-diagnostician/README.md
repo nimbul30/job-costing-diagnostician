@@ -16,11 +16,16 @@ Or attach the folder and say **"hi"** — it introduces itself and walks you thr
 
 ### Try it in two minutes
 
-Finished job folders ship next to this one — real-shaped messes of photos: receipts, day logs, text threads, an inspection tag, a sticky note asking where the money went.
+Four job folders ship in **`Examples and Test Folders/`**, beside this one in the repo — real-shaped messes of photos: receipts, a handwritten day log, a text thread, a timesheet on a clipboard.
 
-**Test it with `Reyes panel upgrade 44 Thistle Rd`.** It is deliberately **not** worked anywhere in `examples.md`, so nothing in this folder contains its answer. (`Mrs. Hendricks` and `Whitfield` *are* worked, as calibration — feeding those back is a memory test, not a diagnosis.)
+**Two are worked in `examples.md`**, as calibration, so you can see the standard of proof: `Example 1-Mrs. Hendricks 42 Sycamore Ln` and `Example 2-Whitfield AC changeout 27 Larkspur Ct`. Feeding those back is a memory test, not a diagnosis.
 
-Reyes is also the sharper test. It looks like a plain labor overrun — 46 hours against 30 quoted, and the contractor's own note says exactly that. The hours are a symptom, and the evidence for the real cause is a photograph of an inspection tag.
+**Two are held out.** Neither answer appears anywhere in this folder:
+
+- **`Mr. Smith 15 Elm St`** — the sharper test, and it does not test what you would expect. Its four documents will happily yield a complete, fully reconciled bucket table in which every individual figure is genuine. The correct output is a refusal. Whether the tool works out why is the test.
+- **`Ms. Davis 88 Oak Ave`** — the same shape, plus one document that fails to agree with itself.
+
+Both held-out folders exercise the check in `rules.md` Step 0 — *do these artifacts describe the same job?* — which is the one failure arithmetic can never catch, because nothing is wrong with the arithmetic.
 
 ## What to feed it
 

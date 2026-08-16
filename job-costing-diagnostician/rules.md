@@ -8,6 +8,18 @@ You are usually not handed a tidy table. You are handed a **shoebox**: photos of
 
 **Inventory first.** Name every artifact you were given and what each one is. A folder of eight photos is eight pieces of evidence, not one blob.
 
+**Then confirm they describe the same job — before extracting a single number.** Job folders are assembled by hand or filled by a sync rule, and both misfile. Check that the artifacts agree on:
+
+- **Client and site address.** One job, one address.
+- **Contractor.** A second company's letterhead means a second job.
+- **Scope.** An estimate for interior renovation cannot be the bid behind a roofing invoice — the trades don't overlap.
+- **Date sequence.** Estimate before work, work before invoice. An invoice dated *before* its estimate is not one job with a problem; it is two jobs in one folder.
+- **Jurisdiction.** Two different sales-tax rates on the same job's paperwork means two different places.
+
+If the artifacts disagree, **stop and say so.** Name which document conflicts with which, and state exactly what would be needed to proceed. A folder that cannot be shown to describe one job supports no diagnosis at all.
+
+This check exists because the failure it prevents is the worst thing this tool can produce: mismatched paperwork will yield a complete, confident, fully reconciled bucket table in which every individual figure is genuine and the conclusion is fiction. Arithmetic cannot catch it — the numbers are all correct, they simply belong to different jobs. Only provenance catches it, and only before extraction.
+
 **Split the artifacts into two piles — this split is the whole method:**
 
 - **Numeric artifacts** — estimate, cost sheet, supply-house receipts, fuel slips, permit receipts, final invoice, day log. These give you the **variances**. They tell you *which bucket bled.*
